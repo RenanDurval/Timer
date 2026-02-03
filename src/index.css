@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-jiu-jitsu-black: #0a0a0a;
+  --color-jiu-jitsu-white: #f5f5f5;
+  --color-jiu-jitsu-red: #d32f2f;
+  --color-jiu-jitsu-green: #388e3c;
+  --color-jiu-jitsu-yellow: #fbc02d;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Base resets & Mobile optimizations */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  background-color: var(--color-jiu-jitsu-black);
+  color: var(--color-jiu-jitsu-white);
+  font-family: var(--font-sans);
+  user-select: none;
+}
